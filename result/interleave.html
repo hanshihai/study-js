@@ -1,0 +1,21 @@
+<html>
+<head>
+<script language="javascript" src="interleave.js" type="text/javascript"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+
+document.write("expect: " + (typeof interleave) + "<br />");
+document.write("expect: " + interleave('hello', 'WORLD') + "<br />");
+document.write("expect: " + interleave('HELLO', 'world') + "<br />");
+document.write("expect: " + interleave('thisstringislonger', '123') + "<br />");
+document.write("expect: " + interleave('AFEWLETTERS', 'astringwithmoreletters') + "<br />");
+document.write("expect: " + interleave('abc', 'XYZ', '123') + "<br />");
+document.write("expect: " + interleave('.......', 'helpful', '-------') + "<br />");
+document.write("expect: " + interleave('aB', 'cD', 'eF', 'gH', 'iJ', 'kL', 'mN', 'oP', 'qR', 'sT') + "<br />");
+
+</script>
+
+</body>
+</html>
